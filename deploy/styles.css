@@ -320,6 +320,13 @@ template {
 /* =============
     Typography
 ============= */
+body {
+  font-family: 'Comfortaa', cursive; }
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0; }
+
 /* =============
     Buttons
 ============= */
@@ -347,6 +354,17 @@ textarea {
 /* =============
     Footer
 ============= */
+#footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000; }
+  #footer #footer-content {
+    grid-area: footer; }
+  #footer #footer-drexel {
+    display: flex;
+    align-items: flex-end; }
+
 /* =============
     Section 1
 ============= */
@@ -355,4 +373,16 @@ textarea {
 
 #section-1 #section-1-headline {
   display: grid;
+  text-align: center; }
+
+#section-1 h1 {
+  font-weight: 700; }
+
+#section-2 aside img {
+  width: 100%; }
+
+#section-2 #section-2-intro {
+  display: grid;
+  grid-template-areas: ". section-2 .";
+  grid-template-columns: 10px auto 10px;
   text-align: center; }

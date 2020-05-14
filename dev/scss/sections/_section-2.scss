@@ -1,0 +1,14 @@
+#section-2{
+    aside{
+        img{
+            width: 100%
+        }
+    }
+    #section-2-intro{
+        display: grid;
+        grid-template-areas: ". section-2 .";
+		grid-template-columns: 10px auto 10px;
+		text-align: center;
+    }
+
+}
