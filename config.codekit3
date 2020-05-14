@@ -19,6 +19,61 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/deploy/img/Section1/hero.png": {
+		"ft": 32768,
+		"iS": 387535,
+		"oA": 0,
+		"oAP": "/deploy/img/Section1/hero.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/Section2/shoes.png": {
+		"ft": 32768,
+		"iS": 142120,
+		"oA": 0,
+		"oAP": "/deploy/img/Section2/shoes.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/Section3/card-stack.png": {
+		"ft": 32768,
+		"iS": 99751,
+		"oA": 0,
+		"oAP": "/deploy/img/Section3/card-stack.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/Section3/cards.png": {
+		"ft": 32768,
+		"iS": 118476,
+		"oA": 0,
+		"oAP": "/deploy/img/Section3/cards.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/Section3/sign.png": {
+		"ft": 32768,
+		"iS": 116056,
+		"oA": 0,
+		"oAP": "/deploy/img/Section3/sign.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -114,8 +169,8 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/dev/index.html",
-		"oF": 0
+		"oAP": "/deploy/index.html",
+		"oF": 2
 		},
 	"/dev/js/scripts.js": {
 		"bF": 0,
@@ -296,7 +351,7 @@
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dev/section-2.html",
 		"oF": 0
 		},
@@ -304,7 +359,7 @@
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dev/section-3.html",
 		"oF": 0
 		}
