@@ -172,7 +172,7 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/footer.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/dev/index.kit": {
 		"cB": 0,
@@ -370,7 +370,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/deploy/styles.css",
+		"oAP": "/deploy/css/styles.css",
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
