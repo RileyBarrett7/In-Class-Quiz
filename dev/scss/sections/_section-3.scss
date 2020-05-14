@@ -1,37 +1,25 @@
 /* =============
     Section 3
 ============= */
-
-#section-3{
-    text-align: center;
-    img{
-        width: 95%;
-        margin: 10px 10px;
-    }
-
-    #section-3-1{
-        text-align: center;
-        background-color: $gray;
-        line-height: 1.9rem;
-    }
-
-    #section-3-2{
-        text-align: center;
-        background-color: $gray;
-        line-height: 1.9rem;
-    }
-
-    #section-3-3{
-        text-align: center;
-        background-color: $gray;
-        line-height: 1.9rem;
-    }
-
-    
-
-
-
-
-
-
+#section-3 {
+	text-align: center;
+	img {
+		margin: 10px 10px;
+		width: 95%;
+	}
+	#section-3-1 {
+		background-color: $gray;
+		line-height: 1.9rem;
+		text-align: center;
+	}
+	#section-3-2 {
+		background-color: $gray;
+		line-height: 1.9rem;
+		text-align: center;
+	}
+	#section-3-3 {
+		background-color: $gray;
+		line-height: 1.9rem;
+		text-align: center;
+	}
 }

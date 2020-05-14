@@ -329,7 +329,11 @@ body {
 #section-3 {
   font-family: 'Montserrat', sans-serif; }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   margin: 0;
   padding: 0; }
 
@@ -361,16 +365,17 @@ textarea {
     Footer
 ============= */
 #footer {
-  display: flex;
   align-items: center;
-  justify-content: center;
-  background-color: #000; }
+  background-color: #000;
+  display: flex;
+  justify-content: center; }
   #footer #footer-content {
-    grid-area: footer;
-    color: #6B6B6B; }
+    color: #6B6B6B;
+    grid-area: footer; }
   #footer #footer-drexel {
-    display: flex;
-    align-items: flex-end; }
+    align-items: flex-end;
+    color: #fff;
+    display: flex; }
 
 /* =============
     Section 1
@@ -413,17 +418,17 @@ textarea {
 #section-3 {
   text-align: center; }
   #section-3 img {
-    width: 95%;
-    margin: 10px 10px; }
+    margin: 10px 10px;
+    width: 95%; }
   #section-3 #section-3-1 {
-    text-align: center;
     background-color: #ECECEC;
-    line-height: 1.9rem; }
+    line-height: 1.9rem;
+    text-align: center; }
   #section-3 #section-3-2 {
-    text-align: center;
     background-color: #ECECEC;
-    line-height: 1.9rem; }
+    line-height: 1.9rem;
+    text-align: center; }
   #section-3 #section-3-3 {
-    text-align: center;
     background-color: #ECECEC;
-    line-height: 1.9rem; }
+    line-height: 1.9rem;
+    text-align: center; }
