@@ -1,20 +1,32 @@
 /* =============
     Section 1
 ============= */
-#section-1{
-    aside{
-        img{
-            width: 100%;
-        }
-    }
-
-    #section-1-headline{
-        display: grid;
-        text-align: center;
-
-        h1{
-            font-weight: 700;
-            font-size: rem-calc(40);
-        }
-    }
+#section-1 {
+	aside {
+		img {
+			width: 100%;
+		}
+	}
+	#section-1-headline {
+		color: $dark-blue;
+		display: grid;
+		text-align: center;
+		#subheadline {
+			color: $light-blue;
+		}
+		h1 {
+			font-size: rem-calc(40);
+			font-weight: 700;
+		}
+	}
+	#hero {
+		#img1 {
+			background-image: url('../img/Section1/hero_md.jpg');
+			background-size: cover;
+			@include md {
+				height: 1042px;
+				width: 300px;
+			}
+		}
+	}
 }

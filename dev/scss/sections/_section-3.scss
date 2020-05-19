@@ -2,24 +2,60 @@
     Section 3
 ============= */
 #section-3 {
+	align-items: center;
+	grid-area: section-3;
+	margin-top: 25px;
 	text-align: center;
 	img {
 		margin: 10px 10px;
 		width: 95%;
 	}
-	#section-3-1 {
+	#card1 {
 		background-color: $gray;
 		line-height: 1.9rem;
+		margin-bottom: 30px;
 		text-align: center;
 	}
-	#section-3-2 {
+	#card2 {
 		background-color: $gray;
 		line-height: 1.9rem;
+		margin-bottom: 30px;
 		text-align: center;
 	}
-	#section-3-3 {
+	#card3 {
+		align-content: center;
 		background-color: $gray;
+		grid: 10% auto 10%;
 		line-height: 1.9rem;
+		margin-bottom: 30px;
 		text-align: center;
+	}
+	#img1 {
+		margin: 0px 0px 0px 0px;
+		width: 100%;
+	}
+	#img2 {
+		margin: 0px 0px 0px 0px;
+		width: 100%;
+	}
+	#img3 {
+		margin: 0px 0px 0px 0px;
+		width: 100%;
+	}
+	#cards {
+		@include md {
+			display: grid;
+			gap: 40px;
+			grid-template-columns: repeat(2, 1fr);
+			grid-template-rows: repeat(2, 1fr);
+			margin: 25px 50px 25px 50px;
+		}
+		@include lg {
+			display: grid;
+			gap: 20px;
+			grid-template-columns: repeat(3, 1fr);
+			grid-template-rows: repeat(1, 1fr);
+			margin: 50px 30px 100px 30px;
+		}
 	}
 }

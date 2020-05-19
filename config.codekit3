@@ -30,6 +30,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/deploy/img/Section1/hero_md.jpg": {
+		"ft": 16384,
+		"iS": 1351642,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/Section1/hero_md.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/Section2/shoes.png": {
 		"ft": 32768,
 		"iS": 142120,

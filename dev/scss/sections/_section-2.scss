@@ -1,38 +1,40 @@
 /* =============
     Section 2
 ============= */
-
 #section-2 {
-    aside {
-        img {
-            width: 100%
-        }
-    }
-
-    #section-2-intro {
-        display: grid;
-        grid-template-areas: ". section-2 .";
-        grid-template-columns: 10px auto 10px;
-        text-align: justify;
-        line-height: 1.9rem;
-
-
-        #title {
-            text-align: center;
-        }
-
-        #section-2-intro-content {
-            grid-area: section-2;
-
-            h1 {
-                font-size: rem-calc(35);
-                font-weight: 600;
-            }
-
-            h4 {
-                font-weight: 400;
-            }
-        }
-    }
-
+	aside {
+		img {
+		}
+	}
+	#section-2-intro {
+		background-color: $gray;
+		display: grid;
+		grid-template-areas: ". section-2 .";
+		grid-template-columns: 10px auto 10px;
+		line-height: 1.9rem;
+		text-align: justify;
+		#title {
+			text-align: center;
+		}
+		#section-2-intro-content {
+			grid-area: section-2;
+			h1 {
+				font-size: rem-calc(35);
+				font-weight: 600;
+			}
+			h4 {
+				font-weight: 400;
+			}
+		}
+	}
+	@include md {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		margin-top: 40px;
+		text-align: left;
+	}
+	@include lg {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
 }

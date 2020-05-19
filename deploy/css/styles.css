@@ -384,24 +384,32 @@ textarea {
   width: 100%; }
 
 #section-1 #section-1-headline {
+  color: #1A4B58;
   display: grid;
   text-align: center; }
+  #section-1 #section-1-headline #subheadline {
+    color: #338595; }
   #section-1 #section-1-headline h1 {
-    font-weight: 700;
-    font-size: 2.5rem; }
+    font-size: 2.5rem;
+    font-weight: 700; }
 
+#section-1 #hero #img1 {
+  background-image: url("../img/Section1/hero_md.jpg");
+  background-size: cover; }
+  @media (min-width: 768px) {
+    #section-1 #hero #img1 {
+      height: 1042px;
+      width: 300px; } }
 /* =============
     Section 2
 ============= */
-#section-2 aside img {
-  width: 100%; }
-
 #section-2 #section-2-intro {
+  background-color: #ECECEC;
   display: grid;
   grid-template-areas: ". section-2 .";
   grid-template-columns: 10px auto 10px;
-  text-align: justify;
-  line-height: 1.9rem; }
+  line-height: 1.9rem;
+  text-align: justify; }
   #section-2 #section-2-intro #title {
     text-align: center; }
   #section-2 #section-2-intro #section-2-intro-content {
@@ -412,23 +420,66 @@ textarea {
     #section-2 #section-2-intro #section-2-intro-content h4 {
       font-weight: 400; }
 
+@media (min-width: 768px) {
+  #section-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 40px;
+    text-align: left; } }
+
+@media (min-width: 992px) {
+  #section-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); } }
+
 /* =============
     Section 3
 ============= */
 #section-3 {
+  align-items: center;
+  grid-area: section-3;
+  margin-top: 25px;
   text-align: center; }
   #section-3 img {
     margin: 10px 10px;
     width: 95%; }
-  #section-3 #section-3-1 {
+  #section-3 #card1 {
     background-color: #ECECEC;
     line-height: 1.9rem;
+    margin-bottom: 30px;
     text-align: center; }
-  #section-3 #section-3-2 {
+  #section-3 #card2 {
     background-color: #ECECEC;
     line-height: 1.9rem;
+    margin-bottom: 30px;
     text-align: center; }
-  #section-3 #section-3-3 {
+  #section-3 #card3 {
+    align-content: center;
     background-color: #ECECEC;
+    grid: 10% auto 10%;
     line-height: 1.9rem;
+    margin-bottom: 30px;
     text-align: center; }
+  #section-3 #img1 {
+    margin: 0px 0px 0px 0px;
+    width: 100%; }
+  #section-3 #img2 {
+    margin: 0px 0px 0px 0px;
+    width: 100%; }
+  #section-3 #img3 {
+    margin: 0px 0px 0px 0px;
+    width: 100%; }
+  @media (min-width: 768px) {
+    #section-3 #cards {
+      display: grid;
+      gap: 40px;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      margin: 25px 50px 25px 50px; } }
+  @media (min-width: 992px) {
+    #section-3 #cards {
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(1, 1fr);
+      margin: 50px 30px 100px 30px; } }
